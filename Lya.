@@ -1,0 +1,10 @@
+F12: :
+Loop 10000
+{
+send {click left}
+sleep 500
+send ja ganhou!
+sleep 200
+send {enter down} {enter up}
+sleep 3000
+}
